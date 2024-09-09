@@ -1,0 +1,118 @@
+
+
+ .pupilContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .headerRow {
+    display: flex;
+    gap: 200px; 
+  }
+  
+  @media (max-width: 600px) {
+    .headerRow {
+      gap: 100px;
+    }
+  
+    .pupilContainer {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .headerRow {
+      gap: 50px; 
+    }
+  
+    .pupilContainer {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+  
+ 
+ .pupilHeader {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    width: 500px;
+ }
+ 
+ .pupilStatus {
+    font-size: 1.5rem;
+ }
+ 
+ .pupilStatus.sent {
+    color: green;
+ }
+ 
+ .pupilStatus.notSent {
+    color: red;
+ }
+ 
+ .separator {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 0;
+    border-top: 1px solid #ddd;
+ }
+
+ .pupilFormVal{
+    margin-left: -200px;
+ }
+ 
+ @media (max-width: 1024px) {
+    .pupilContainer {
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+ }
+ 
+ @media (max-width: 768px) {
+    .pupilContainer {
+       flex-direction: row; 
+       align-items: flex-start;
+    }
+ 
+    .pupilHeader {
+       gap: 20px; 
+       width: 300px;
+       flex-direction: row;
+       align-items: flex-start;
+    }
+    .pupilFormVal{
+        margin-left: -150px;
+     }
+    .pupilStatus {
+       align-self: flex-start; 
+       margin-top: 10px;
+    }
+ 
+    .separator {
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+ }
+ 
+ @media (max-width: 480px) {
+    .pupilContainer {
+       margin-left: 2%;
+       margin-right: 2%;
+    }
+ 
+    .pupilHeader {
+       gap: 10px;
+    }
+ 
+    .pupilStatus {
+       font-size: 1.2rem;
+    }
+ }
+ 

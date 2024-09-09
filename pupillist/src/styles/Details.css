@@ -1,0 +1,29 @@
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; 
+    height: 60vh;
+}
+
+.detailsContent {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+    max-width: 800px; 
+    width: 100%; 
+}
+
+.avatarContainer {
+    flex-shrink: 0; 
+}
+
+.detailsInfo {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.highlight {
+    color: darkred;
+}

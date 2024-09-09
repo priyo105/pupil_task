@@ -1,0 +1,17 @@
+.centeredText{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.roundedImage {
+    border-radius: 50%; 
+    object-fit: cover; 
+    display: block; 
+  }
+  
+
+  .generalFlex{
+    display: flex;
+  }
